@@ -11,6 +11,9 @@ export default function App() {
       <div>
         <div className="bg-primary text-light p-4">Hello World</div>
       </div>
+      <div>
+        <div className="bg-primary text-light p-4">Hello World</div>
+      </div>
       <div>{counter}</div>
       <input type="button" value="inc" onClick={inc} />
       <input type="button" value="dec" onClick={dec} />
